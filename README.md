@@ -41,12 +41,13 @@ The Smart Monitoring System is a project designed to monitor environmental condi
    cd smart-monitoring-system
 Install Dependencies:
 
-Backend:
-bash
+2. Backend:
+ ```bash
 Copy code
 cd backend
 npm install
-Configure the ESP8266:
+```
+3. Configure the ESP8266:
 
 Update the WiFi and MQTT server details in the Arduino sketch (esp8266_code.ino).
 Upload the Code:
@@ -54,21 +55,22 @@ Upload the Code:
 Use the Arduino IDE to upload the code to the ESP8266.
 Run the Backend Server:
 
-bash
+```bash
 Copy code
 cd backend
 node app.js
-Usage
+```
+4. Usage
 Deploy the Hardware:
 
 Ensure the ESP8266 is connected to the WiFi and MQTT broker.
 Run the Backend:
 
 Start the backend server to receive and store data:
-bash
-Copy code
+```bash
 node app.js
-Monitor Data:
+```
+5. Monitor Data:
 
 The backend server will log received sensor data and store it in the MongoDB database.
 Troubleshooting
@@ -82,14 +84,10 @@ Ensure the sensor wiring is correct and the sensors are functioning properly.
 Contributing
 Feel free to open issues or submit pull requests if you find any bugs or want to add new features.
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 Contact
-For any questions or support, please contact your email address.
+For any questions or support, t.keshavkumar.t@gmail.com
 
-markdown
-Copy code
 
 ### Notes:
 - Replace `https://github.com/yourusername/smart-monitoring-system.git` with the actual URL of your GitHub repository.
