@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Smart Agricultural Monitoring System is a project designed to monitor environmental conditions using sensors and publish the data to an MQTT broker. This system utilizes an ESP8266 microcontroller to interface with a DHT22 temperature and humidity sensor and a soil moisture sensor. The collected data is published to an MQTT topic and stored in a MongoDB database.
+The Smart Agricultural Monitoring System is a Hackathon project designed to monitor environmental conditions using sensors and publish the data to an MQTT broker. This system utilizes an ESP8266 microcontroller to interface with a DHT22 temperature and humidity sensor and a soil moisture sensor. The collected data is published to an MQTT topic and stored in a MongoDB database.
 
 ## Components
 
